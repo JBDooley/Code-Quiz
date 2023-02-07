@@ -23,6 +23,15 @@
     font-size: 150%;
   }
 
+  .hidden {
+    visibility: hidden;
+  }
+
+  #questions{
+
+  }
+  
+
 h1 {
     font-size: 300%;
 }  
