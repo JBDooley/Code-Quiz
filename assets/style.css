@@ -4,6 +4,21 @@
     text-align: center;
   }
 
+  .highscore {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    color: purple;
+    font-size: 150%;
+  }
+
+  .timer {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    font-size: 150%;
+  }
+
 h1 {
     font-size: 300%;
 }  
