@@ -1,0 +1,25 @@
+.content {
+    margin: 100px auto 0 auto;
+    max-width: 600px;
+    text-align: center;
+  }
+
+h1 {
+    font-size: 300%;
+}  
+
+p {
+    font-size: 125%
+}
+
+button {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 150%;
+    background-color: purple;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: white;
+    border: 0;
+  }
