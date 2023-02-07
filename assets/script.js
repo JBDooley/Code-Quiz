@@ -62,6 +62,26 @@ function getQuestion() {
         optionDEl.textContent = questionOptions[i].answers[3]; 
 };
 
+optionAEl.addEventListener("click", function(){
+    i++
+    getQuestion();
+});
+
+optionBEl.addEventListener("click", function(){
+    i++
+    getQuestion();
+});
+
+optionCEl.addEventListener("click", function(){
+    i++
+    getQuestion();
+});
+
+optionDEl.addEventListener("click", function(){
+    i++
+    getQuestion();
+});
+
 startButton.addEventListener("click", function() { 
     beginQuiz();
     console.log("quiz has begun!");
