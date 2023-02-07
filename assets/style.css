@@ -4,16 +4,13 @@
     text-align: center;
   }
 
-  .initial {
-    visibility: visible;
-  }
 
   .highscore {
     position: absolute;
     top: 15px;
     left: 25px;
     color: purple;
-    font-size: 150%;
+    font-size: 120%;
   }
 
   .timer {
@@ -27,11 +24,19 @@
     visibility: hidden;
   }
 
-  #questions{
-
+  #results {
+    font-size: 120%;
+  }
+  #initials {
+    height: 30px;
+    font-size: 120%;
+    margin-bottom: 10px;
   }
   
-
+a {
+    color: inherit;
+    text-decoration: none;
+}
 h1 {
     font-size: 300%;
 }  

@@ -1,7 +1,8 @@
 
 var startButton = document.querySelector("#begin")
-var initialEl = document.querySelector(".initial");
+var initialEl = document.querySelector("#startup");
 var questionsEl = document.querySelector("#questionBox");
+var finalEl = document.querySelector("#final");
 var questionTitleEl = document.querySelector("#questionTitle");
 var answerOptionnsEl = document.querySelector("#answerOptions");
 var optionAEl = document.querySelector("#optionA");
@@ -62,23 +63,45 @@ function getQuestion() {
         optionDEl.textContent = questionOptions[i].answers[3]; 
 };
 
+function endQuiz() {
+    questionsEl.setAttribute("style","display:none");
+
+    finalEl.removeAttribute("class")
+};
+
 optionAEl.addEventListener("click", function(){
-    i++
+    if (i >= questionOptions.length -1) {
+        endQuiz();
+    } else {
+        i++
+    };
     getQuestion();
 });
 
 optionBEl.addEventListener("click", function(){
-    i++
+    if (i >= questionOptions.length -1) {
+        endQuiz();
+    } else {
+        i++
+    };
     getQuestion();
 });
 
-optionCEl.addEventListener("click", function(){
-    i++
+optionCEl.addEventListener("click", function(){ 
+    if (i >= questionOptions.length -1) {
+        endQuiz();
+    } else {
+        i++
+    };
     getQuestion();
 });
 
 optionDEl.addEventListener("click", function(){
-    i++
+    if (i >= questionOptions.length -1) {
+        endQuiz();
+    } else {
+        i++
+    };
     getQuestion();
 });
 
