@@ -13,20 +13,21 @@
     font-size: 120%;
   }
 
-  .timer {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    font-size: 150%;
-  }
-
   .hidden {
-    visibility: hidden;
-  }
+      visibility: hidden;
+    }
+    
+    #results {
+        font-size: 120%;
+    }
 
-  #results {
-    font-size: 120%;
-  }
+    #timer {
+      position: absolute;
+      top: 15px;
+      right: 35px;
+      font-size: 150%;
+    }
+
   #initials {
     height: 30px;
     font-size: 120%;

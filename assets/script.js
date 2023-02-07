@@ -1,4 +1,5 @@
 
+var timerEl = document.querySelector("#timer");
 var startButton = document.querySelector("#begin")
 var initialEl = document.querySelector("#startup");
 var questionsEl = document.querySelector("#questionBox");
@@ -11,7 +12,9 @@ var optionCEl = document.querySelector("#optionC");
 var optionDEl = document.querySelector("#optionD");
 
 let i = 0;
-
+var time = 70;
+var timeStart = false;
+var countdownInterval = setInterval(startTimer, 1000);
 
 
 var questionOptions = [
@@ -45,12 +48,23 @@ var questionOptions = [
     }
 ];
 
+function startTimer() {
+    if (timeStart)
+    time--;
+    if(time<= 0) {
+    endQuiz();
+    time = 0;    
+    }
+    document.getElementById("timeLeft").innerHTML = time;
+}
 
 
 function beginQuiz(){
     initialEl.setAttribute("style","display:none;");
 
     questionsEl.removeAttribute("class");
+
+    timeStart = true;
 
     getQuestion();
 };
@@ -67,6 +81,8 @@ function endQuiz() {
     questionsEl.setAttribute("style","display:none");
 
     finalEl.removeAttribute("class")
+
+    timeStart = false;
 };
 
 optionAEl.addEventListener("click", function(){
