@@ -5,7 +5,7 @@
   }
 
 
-  .highscore {
+  .highscoreDisplay {
     position: absolute;
     top: 15px;
     left: 25px;
@@ -15,6 +15,18 @@
 
   .hidden {
       visibility: hidden;
+    }
+
+    .hideFeedback {
+        visibility: hidden;
+    }
+
+    .showFeedback {
+        visibility: visible;
+    }
+
+    #feedback {
+        font-size: 50px;
     }
     
     #results {
@@ -32,6 +44,11 @@
     height: 30px;
     font-size: 120%;
     margin-bottom: 10px;
+  }
+
+  #scorelist {
+    font-size: 200%;
+    margin-bottom: 30px;
   }
   
 a {
