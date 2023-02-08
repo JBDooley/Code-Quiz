@@ -28,38 +28,38 @@ var countdownInterval = setInterval(startTimer, 1000);
 
 var questionOptions = [
     {
-        question: "First question here",
-        answers: ["A) 1", "B) 2", "C) 3", "D) 4"],
+        question: "Which is not a primitive data type?",
+        answers: ["A) strings", "B) booleans", "C) alerts", "D) numbers"],
         correct: 2
     },
     {
-        question: "Second question here",
-        answers: ["A) 1", "B) 2", "C) 3", "D) 4"],
+        question: "String values must always be enclosed within ___ when assigned to variables",
+        answers: ["A) ' '", "B) { }", "C) ( )", "D) [ ]"],
+        correct: 0
+    },
+    {
+        question: "Arrays can be used to store ___",
+        answers: ["A) strings", "B) booleans", "C) other arrays", "D) all of the above"],
+        correct: 3
+    },
+    {
+        question: "The two basic groups of data types are",
+        answers: ["A) primitive and attribute", "B) attribute and reference types", "C) reference types and primitive", "D) none of the above"],
         correct: 2
     },
     {
-        question: "Third question here",
-        answers: ["A) 1", "B) 2", "C) 3", "D) 4"],
-        correct: 2
+        question: "Which is not a type of popup box",
+        answers: ["A) alert", "B) ask", "C) prompt", "D) confirm"],
+        correct: 1
     },
     {
-        question: "Fourth question here",
-        answers: ["A) 1", "B) 2", "C) 3", "D) 4"],
-        correct: 2
+        question: "Which of these is a valid boolean operator",
+        answers: ["A) &&", "B) !", "C) ||", "D) all of the above"],
+        correct: 3
     },
     {
-        question: "Fifth question here",
-        answers: ["A) 1", "B) 2", "C) 3", "D) 4"],
-        correct: 2
-    },
-    {
-        question: "Sixth question here",
-        answers: ["A) 1", "B) 2", "C) 3", "D) 4"],
-        correct: 2
-    },
-    {
-        question: "Seventh question here",
-        answers: ["A) 1", "B) 2", "C) 3", "D) 4"],
+        question: "The condition of an if/else statement is contained within",
+        answers: ["A) ' '", "B) { }", "C) ( )", "D) [ ]"],
         correct: 2
     }
 ];
