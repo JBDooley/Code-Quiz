@@ -15,6 +15,12 @@ Then the user is shown their final score and a box to enter their initials
 When the user enters their initials and hits submit
 Then they are shown a list of saved scores and buttons to go back to the beginning or clear the scores
 
+https://jbdooley.github.io/Code-Quiz/
+
+![alt text] (./assets./CodeQuiz.png)
+
+
+
 ## Technologies Used
 
 HTML, CSS, JavaScript
