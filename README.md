@@ -17,7 +17,7 @@ Then they are shown a list of saved scores and buttons to go back to the beginni
 
 https://jbdooley.github.io/Code-Quiz/
 
-![Screenshot] (../assets/CodeQuiz.png)
+![Screenshot](assets/CodeQuiz.png)
 
 
 
